@@ -12,3 +12,4 @@ if (numder1 > numder2)
     Console.WriteLine($"Большее число {numder1}");
 }
 else Console.WriteLine($"Большее число {numder2}");
+if (numder1 == numder2) Console.WriteLine("Вы ввели одинаковые числа");
