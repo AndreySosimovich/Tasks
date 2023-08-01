@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj": {}
+    "C:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj": {
+    "C:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj",
+        "projectUniqueName": "C:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj",
         "projectName": "Task00",
-        "projectPath": "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj",
+        "projectPath": "C:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj",
         "packagesPath": "C:\\Users\\Papa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\obj\\",
+        "outputPath": "C:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Papa\\AppData\\Roaming\\NuGet\\NuGet.Config"
