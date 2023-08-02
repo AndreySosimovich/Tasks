@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj": {}
+    "/home/pasha/Education/Programming C#/Tasks/Task00/Task00.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj": {
+    "/home/pasha/Education/Programming C#/Tasks/Task00/Task00.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj",
+        "projectUniqueName": "/home/pasha/Education/Programming C#/Tasks/Task00/Task00.csproj",
         "projectName": "Task00",
-        "projectPath": "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\Task00.csproj",
-        "packagesPath": "C:\\Users\\Papa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Papa\\Documents\\GeekBrains\\Programming_C#\\Tasks\\Task00\\obj\\",
+        "projectPath": "/home/pasha/Education/Programming C#/Tasks/Task00/Task00.csproj",
+        "packagesPath": "/home/pasha/.nuget/packages/",
+        "outputPath": "/home/pasha/Education/Programming C#/Tasks/Task00/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Papa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/pasha/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.412/RuntimeIdentifierGraph.json"
         }
       }
     }
