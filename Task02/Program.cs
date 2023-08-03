@@ -7,12 +7,16 @@ Console.WriteLine("Введите первое число");
 int numder1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int numder2 = Convert.ToInt32(Console.ReadLine());
-if (numder1 > numder2)
+if (numder1 == numder2) 
+{
+    Console.WriteLine("Вы ввели одинаковые числа");
+}
+else if (numder1 > numder2)
 {
     Console.WriteLine($"Большее число {numder1}");
 }
 else Console.WriteLine($"Большее число {numder2}");
-if (numder1 == numder2) Console.WriteLine("Вы ввели одинаковые числа");
+
 
 
 // Второй вариант, где в консоль выводяться оба числа, и меньшее и большее.
