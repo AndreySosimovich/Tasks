@@ -14,7 +14,7 @@ int secondDigit = SecondDigit(number);
 Console.WriteLine($"Вторая цифра числа  {secondDigit}");
 int SecondDigit(int num) 
 {
-    while (num > 100) num = num / 10;
+    while (num > 100) num /= 10;
     int x = num % 10;
     return x;
 }
