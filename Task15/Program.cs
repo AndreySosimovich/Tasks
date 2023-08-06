@@ -5,6 +5,11 @@
 
 Console.WriteLine("Введите цифру, которая соответствует дню недели");
 int number = Convert.ToInt32(Console.ReadLine());
+if (number < 1 || number > 7)
+{
+   Console.WriteLine("Цифра не соответствует дню недели");
+   return;
+}
 
 bool result = WeekDigit(number, 6, 7);
 Console.WriteLine(result? "Да, этот день выходной": "Нет, это не выходной день");
