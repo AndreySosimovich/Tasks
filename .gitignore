@@ -454,6 +454,6 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 .vscode
 *.sln
-.TaskEx/*
+.TaskEx/
 
 
