@@ -11,40 +11,48 @@ int row = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите количество элементов в cтолбце");
 int columns = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
-int[,] matrix = new int[columns, row];
-int count = 1;
-int temp = 0;
-int i, j = 0;
-int row1 = row;
-int columns1 = columns;
+
+int[,] SpinMatrix(int rows, int collumns)
+{
+    int[,] matrix = new int[collumns, rows];
+    int count = 1;
+    int temp = 0;
+    int i, j = 0;
+    int rows1 = rows;
+    int collumns1 = collumns;
+
+    while (count <= rows1 * collumns1)
+    {
+        for (i = temp; i < rows; i++)
+            matrix[j, i] = count++;
+        j = rows - 1;
+        for (i = temp + 1; i < collumns; i++)
+            matrix[i, j] = count++;
+        j = collumns - 1;
+        for (i = rows - 2; i >= temp; i--)
+            matrix[j, i] = count++;
+        j = temp;
+        for (i = collumns - 2; i > temp; i--)
+            matrix[i, j] = count++;
+        rows--;
+        collumns--;
+        temp++;
+        j = temp;
+    }
+    return matrix;
+}
 
 void PrintSpiralMatrix(int[,] matrix)
 {
-    for (i = 0; i < matrix.GetLength(0); i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (j = 0; j < matrix.GetLength(1); j++)
+        for (int j = 0; j < matrix.GetLength(1); j++)
             Console.Write("{0,2} ", matrix[i, j]);
         Console.WriteLine();
     }
 }
 
-while (count <= row1 * columns1)
-{
-    for (i = temp; i < row; i++)
-        matrix[j, i] = count++;
-    j = row - 1;
-    for (i = temp + 1; i < columns; i++)
-        matrix[i, j] = count++;
-    j = columns - 1;
-    for (i = row - 2; i >= temp; i--)
-        matrix[j, i] = count++;
-    j = temp;
-    for (i = columns - 2; i > temp; i--)
-        matrix[i, j] = count++;
-    row--;
-    columns--;
-    temp++;
-    j = temp;
-}
-PrintSpiralMatrix(matrix);
+int[,] array2d = SpinMatrix(row, columns);
+PrintSpiralMatrix(array2d);
 Console.WriteLine();
+ 
